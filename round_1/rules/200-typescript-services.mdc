@@ -1,0 +1,10 @@
+---
+alwaysApply: true
+---
+- Prefer `.ts` for services; when editing a `.js` service, migrate it to `.ts`.
+- Reuse and export domain types from `agent-mode/types/user.ts`.
+- Add precise function signatures and return types for service functions.
+- Avoid `any`; model API responses explicitly.
+- Keep runtime behavior the same; only add types and minor refactors required by TypeScript.
+- Update imports in dependents (components/tests) after renames.
+

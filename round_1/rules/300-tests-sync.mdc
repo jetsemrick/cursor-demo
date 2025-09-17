@@ -1,0 +1,14 @@
+---
+description: "Keep tests in sync with hook and TypeScript migrations."
+globs:
+  - "agent-mode/tests/**/*.js"
+  - "agent-mode/tests/**/*.ts"
+alwaysApply: false
+---
+
+- Update imports in tests when components/services are renamed to `.tsx`/`.ts`.
+- Adjust React Testing Library patterns for functional components (no instance methods).
+- Replace `enzyme`-style patterns if present with RTL idioms (queries + user events).
+- Ensure tests remain green logically; do not change expected behavior without necessity.
+- Prefer explicit imports from testing libraries and consistent async patterns (`findBy*`, `await`).
+

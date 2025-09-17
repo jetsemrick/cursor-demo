@@ -1,0 +1,16 @@
+---
+description: "Modernize React class components to functional components with hooks."
+globs:
+  - "agent-mode/components/**/*.jsx"
+  - "agent-mode/components/**/*.tsx"
+alwaysApply: false
+---
+
+- When a class component is selected, convert it to a functional component using hooks (`useState`, `useEffect`, etc.).
+- Convert `.jsx` to `.tsx` during the refactor and add explicit React/prop types.
+- Import and use types from `agent-mode/types/user.ts` where applicable.
+- Ensure props are typed and defaultProps are migrated to default values or optional props in TypeScript.
+- Do not introduce new behavior; maintain identical rendering and side-effects.
+- If lifecycle methods map 1:1 to hooks, perform the mapping directly.
+- Keep file names and component names consistent; update exports and imports accordingly.
+
