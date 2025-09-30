@@ -4,10 +4,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to Our Speech and Debate Team</h1>
+        <h1>Shawnee Mission East Speech and Debate Team</h1>
         <hr />
         <p>
-          Our team is dedicated to fostering critical thinking, public speaking, 
+          Our squad is dedicated to fostering critical thinking, public speaking, 
           and argumentation skills through competitive speech and debate activities.
         </p>
         <p>
