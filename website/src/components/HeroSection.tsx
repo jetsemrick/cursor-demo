@@ -1,7 +1,10 @@
 import React from 'react';
 import './HeroSection.css';
 
-const HeroSection = () => {
+/**
+ * Hero section component displaying the team's mission statement
+ */
+const HeroSection: React.FC = () => {
   return (
     <section className="hero-section">
       <p className="hero-section__description">
@@ -13,3 +16,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+

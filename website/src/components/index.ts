@@ -4,3 +4,5 @@ export { default as EventsSection } from './EventsSection';
 export { default as CallToAction } from './CallToAction';
 export { default as Divider } from './Divider';
 export { default as Layout } from './Layout';
+export { default as TeamsTable } from './TeamsTable';
+

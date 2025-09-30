@@ -1,7 +1,10 @@
 import React from 'react';
 import './CallToAction.css';
 
-const CallToAction = () => {
+/**
+ * CallToAction component displaying a motivational message
+ */
+const CallToAction: React.FC = () => {
   return (
     <section className="cta-section">
       <p className="cta-section__message">
@@ -12,3 +15,4 @@ const CallToAction = () => {
 };
 
 export default CallToAction;
+
