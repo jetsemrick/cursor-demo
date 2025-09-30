@@ -1,8 +1,8 @@
 import React from 'react';
 import './EventsSection.css';
 
-const EventsSection = () => {
-  const events = [
+const EventsSection: React.FC = () => {
+  const events: string[] = [
     'Policy Debate',
     'Lincoln-Douglas Debate', 
     'Public Forum Debate',
@@ -15,7 +15,7 @@ const EventsSection = () => {
         We compete in various events including:
       </p>
       <ul className="events-section__list">
-        {events.map((event, index) => (
+        {events.map((event: string, index: number) => (
           <li key={index} className="events-section__item">
             {event}
           </li>

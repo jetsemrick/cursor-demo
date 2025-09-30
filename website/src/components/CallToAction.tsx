@@ -1,7 +1,7 @@
 import React from 'react';
 import './CallToAction.css';
 
-const CallToAction = () => {
+const CallToAction: React.FC = () => {
   return (
     <section className="cta-section">
       <p className="cta-section__message">

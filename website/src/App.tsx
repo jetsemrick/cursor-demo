@@ -8,7 +8,7 @@ import {
   CallToAction 
 } from './components';
 
-function App() {
+const App: React.FC = () => {
   return (
     <Layout>
       <Header />
@@ -20,6 +20,6 @@ function App() {
       <CallToAction />
     </Layout>
   );
-}
+};
 
 export default App;
