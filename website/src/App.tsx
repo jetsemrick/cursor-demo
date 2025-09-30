@@ -4,11 +4,15 @@ import {
   Header, 
   HeroSection, 
   Divider, 
-  EventsSection, 
+  EventsSection,
+  TeamsTable,
   CallToAction 
 } from './components';
 
-function App() {
+/**
+ * Main App component that renders the Speech and Debate Team website
+ */
+const App: React.FC = () => {
   return (
     <Layout>
       <Header />
@@ -17,9 +21,12 @@ function App() {
       <Divider />
       <EventsSection />
       <Divider />
+      <TeamsTable />
+      <Divider />
       <CallToAction />
     </Layout>
   );
-}
+};
 
 export default App;
+
