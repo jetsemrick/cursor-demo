@@ -1,25 +1,24 @@
-import './App.css';
+import React from 'react';
+import { 
+  Layout, 
+  Header, 
+  HeroSection, 
+  Divider, 
+  EventsSection, 
+  CallToAction 
+} from './components';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Shawnee Mission East Speech and Debate Team</h1>
-        <hr />
-        <p>
-          Our squad is dedicated to fostering critical thinking, public speaking, 
-          and argumentation skills through competitive speech and debate activities.
-        </p>
-        <p>
-          We compete in various events including Policy Debate, Lincoln-Douglas Debate, 
-          Public Forum Debate, and Individual Speech Events.
-        </p>
-        <hr />
-        <p>
-          Join us in developing your voice and making a difference through the power of words.
-        </p>
-      </header>
-    </div>
+    <Layout>
+      <Header />
+      <Divider />
+      <HeroSection />
+      <Divider />
+      <EventsSection />
+      <Divider />
+      <CallToAction />
+    </Layout>
   );
 }
 

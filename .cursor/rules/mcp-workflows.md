@@ -8,6 +8,13 @@
 - Use `mcp_Linear_create_comment` for progress updates
 - Use `mcp_Linear_list_issues` to browse existing work
 - Always target the "Jemrick" team for demo purposes
+- Include file patterns in issue descriptions for better context
+
+### File Pattern Integration
+- Specify affected file types in Linear issue descriptions
+- Use appropriate labels based on file patterns (TypeScript, React, CSS, Database)
+- Include technical considerations for each file type
+- Reference specific file patterns in acceptance criteria
 
 ### GitHub Integration
 - When creating GitHub branches, use the Linear issue's `gitBranchName` field
@@ -15,6 +22,7 @@
 - Use `mcp_GitHub_create_pull_request` with Linear issue links in the body
 - Use `mcp_GitHub_create_branch` to start feature development
 - Always link Linear issues to GitHub PRs when demonstrating cross-platform workflows
+- Include file pattern information in PR descriptions
 
 ## MCP Workflow Automation
 
@@ -35,3 +43,24 @@
 - Show how MCP error messages help identify configuration issues
 - Explain debugging steps for MCP server problems
 - Highlight the importance of proper authentication and configuration
+
+## TypeScript-Specific Workflows
+
+### Type Safety Integration
+- Use TypeScript interfaces for MCP function parameters
+- Define strict types for Linear issue data structures
+- Implement proper error handling with typed exceptions
+- Use generic types for reusable MCP operations
+
+### File Pattern Awareness
+- Create issues with specific file pattern requirements
+- Use TypeScript labels for *.ts and *.tsx files
+- Include interface definitions in issue descriptions
+- Reference TypeScript configuration in technical considerations
+
+### Development Workflow
+1. Create Linear issue with TypeScript requirements
+2. Generate TypeScript interfaces for data structures
+3. Implement type-safe MCP operations
+4. Create GitHub branch with TypeScript configuration
+5. Link PR with type safety documentation

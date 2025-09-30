@@ -1,0 +1,11 @@
+.cta-section {
+  margin: 20px 0;
+}
+
+.cta-section__message {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  text-align: left;
+  font-weight: 500;
+}
